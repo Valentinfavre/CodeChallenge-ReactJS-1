@@ -13,7 +13,7 @@ const user = {
   foodType: "Nearly Coffee and Bear ",
   age: 22,
   likes: "Coding / Playing with Aurora Team ",
-  twitterUsername: "vallenstriker",
+  FBUsername: "vallenstriker",
   avatar:
     "https://scontent-mrs2-2.xx.fbcdn.net/v/t1.0-9/93842509_1075702839480034_3129954041115705344_o.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_ohc=JypzjQN_7ksAX-5Rbeh&_nc_ht=scontent-mrs2-2.xx&oh=9c5eb81337a94c6a9f26655975e91c13&oe=5FBD5502"
 };
@@ -46,7 +46,7 @@ function App() {
           <strong>Likes</strong> {user.likes}
         </p>
         <p>
-          <strong>Faceook</strong> <a href={url}>@{user.twitterUsername}</a>
+          <strong>Faceook</strong> <a href={url}>@{user.FBUsername}</a>
         </p>
       </div>
 
